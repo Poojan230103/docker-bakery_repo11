@@ -1,0 +1,5 @@
+# flask_img:2.0
+
+FROM docker-bakery-system/test-component1_repo10:1.0
+
+RUN pip install Flask
