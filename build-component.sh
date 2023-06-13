@@ -44,8 +44,8 @@ function check_component() {
     test-component3_repo11)
     DOCKERFILE_PATH=./components_repo11/test-component3_repo11/Dockerfile
     ;;
-    *)
-      echo "Invalid component" && exit 1 ;;
+    # *)
+    #   echo "Invalid component" && exit 1 ;;
   esac
   echo "<Building Image>
         dockerfile path ::" ${DOCKERFILE_PATH}"
@@ -63,16 +63,14 @@ function build()
     ;;
     NO)
     ;;
-    *)
-    echo "Invalid component" && exit 1 ;;
+    # *)
+    # echo "Invalid component" && exit 1 ;;
     esac
 }
 
-if [ "$#" < 3 ]; then
-  usage
-fi
 
 check_component
-build
+build 
+echo "End of Shell"
 
 
