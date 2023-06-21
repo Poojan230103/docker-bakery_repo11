@@ -4,4 +4,4 @@ FROM docker-bakery-system/test-component1_repo10:1.1
 
 RUN pip install Flask
 
-# hello for demo
+# testing sync
