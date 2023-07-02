@@ -1,6 +1,6 @@
 # flask_img:3.0
 
-FROM docker-bakery-system/test-component1_repo10:1.0
+FROM poojan23/docker-bakery-system_repo10-component1:1.0
 
 RUN pip install Flask
 
