@@ -4,4 +4,4 @@ FROM poojan23/docker-bakery-system_repo10-component1:1.0
 
 RUN pip install Flask
 
-# testing manual sync repo11-component1
+# final testing auto-sync repo11-component1
